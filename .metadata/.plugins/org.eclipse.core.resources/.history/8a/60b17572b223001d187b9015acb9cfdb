@@ -15,7 +15,7 @@ public class OpcionesConversionTemp {
 		case "De Celcius a Fahrenheit":
 			temperatura.CelciusAFahrenheit(valor);
 			break;
-		case "De Celcius a Kelvin":
+		case "De Pesos a Euro":
 			temperatura.CelciusAKelvin(valor);
 			break;
 		}

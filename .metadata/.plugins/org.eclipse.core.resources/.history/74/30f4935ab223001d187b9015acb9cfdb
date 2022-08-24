@@ -12,6 +12,6 @@ public class ConvertirTemperatura {
 		public void CelciusAKelvin(double valor){
 			double Kelvin = valor / 136.47;
 			Kelvin = (double) Math.round(Kelvin * 100d )/100;
-			JOptionPane.showMessageDialog(null, valor + " Celcius son " +Kelvin+ " Kelvin" );
+			JOptionPane.showMessageDialog(null, valor + "Celcius son " +Kelvin+ " Kelvin" );
 		}
 }
